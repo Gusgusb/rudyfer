@@ -434,7 +434,7 @@ section.cuenta-regresiva .reloj-col span.number{
   width: 100%;
   color: var(--color-3);
   font-family: 'DM Serif Display', serif;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 section.cuenta-regresiva .reloj-col span.time{
