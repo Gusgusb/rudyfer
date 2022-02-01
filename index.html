@@ -464,11 +464,95 @@
     </section>
 
        <!-- Musica -->
-    <!-- Si esta en modo "Modelo" muestro el reproductor de musica sin musica -->
-    <!-- <div id="controlador-musica">
-        <div id="play-pause-music" class="music-anim-icon">
+
+
+
+<!-- Si esta en modo "Modelo" muestro el repdorductor de musica sin musica -->
+
+
+  <div id="controlador-musica">
+    <div id="play-pause-music" class="music-anim-icon"></div>
+  </div>
+
+
+
+    <!-- Modal asistencia-->
+    <div id="modalAsistencia" class="modal fade" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+
+    <div class="modal-content">
+
+      <div class="img-top-modal d-flex justify-content-center align-items-start">
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+        <img class="" src="https://fixdate.io/modelo-invitacion/24/img/img_circuloCeremonia.svg" alt="">
+
+      </div>
+
+      <div class="modal-header">
+        <h5 class="modal-title"></h5>
+      </div>
+
+      <div class="modal-body">
+
+
+        <div class="formulario-content">
+
+          <form id="formAsistencia" action="">
+
+
+            <div class="form-group d-flex justify-content-around custom-control custom-radio custom-control-inline">
+              <div class="form-check">
+                <input class="form-check-input custom-control-input" type="radio" name="asistencia" id="1" value="Si" checked>
+                <label class="form-check-label custom-control-label" for="1">
+                  Si! Confirmo                </label>
+              </div>
+              <div class="form-check">
+                <input class="custom-control-input" type="radio" name="asistencia" id="2" value="No">
+                <label class="custom-control-label" for="2">
+                  No puedo :(                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <input type="text" class="form-control" id="nombreAsistente" name='nombre' placeholder="Ingrese su nombre completo">
+            </div>
+
+
+            <div class="form-group">
+              <textarea id="comentariosAsistente" class="form-control" name="comentarios" id="" rows="2" placeholder="Ingrese algun dato importante, Ej: Soy vegetariano"></textarea>
+            </div>
+
+            <input id="eventoAsistencia" type="hidden" name="evento" value="">
+            <input type="hidden" name="invitacion" value="">
+            <input type="hidden" name="token" value="">
+            <input type="hidden" name="lang" value="es">
+            <input type="hidden" name="country" value="mx">
+
+
+          </form>
+
         </div>
-    </div> -->
+
+        <div class="msj-content d-flex flex-column justify-content-center"></div>
+
+
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" id="sendAsistencia" class="boton">Enviar</button>
+      </div>
+
+
+
+    </div>
+
+
+  </div>
+</div>
 
     <!-- Modal asistencia-->
     <div id="modalAsistencia" class="modal fade" tabindex="-1">
