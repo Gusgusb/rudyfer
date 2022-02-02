@@ -67,7 +67,16 @@
     </div>
     <!-- END PRELOADER AREA -->
   
+     <button class="reproductor">Da clic aquí</button>
+<script>
+    let boton = document.querySelector(".reproductor")
 
+    boton.addEventListener("click", () => {
+      let etiquetaAudio = document.createElement("audio")
+      etiquetaAudio.setAttribute("src", "./cancion.mp3")
+      etiquetaAudio.play()
+    })
+</script>
     <!-- Portada -->
     <section class="portada">
 
