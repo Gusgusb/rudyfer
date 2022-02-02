@@ -366,6 +366,37 @@ section.portada .flecha-continuar{
 }
 
 
+ul.lang-inv{
+  position:absolute;
+  width:100%;
+  top:-65px;
+}
+
+ul.lang-inv li{
+  margin: 0 5px;
+}
+
+ul.lang-inv li a{
+  color: var(--color-1);
+  background-color:var(--color-3);
+  font-size:14px;
+  font-family: var(--fuente-2);
+  font-weight:400;
+  display: inline-block;
+  line-height:30px;
+  height:30px;
+  width:30px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+ul.lang-inv li a:hover{
+  text-decoration: none;
+  background:var(--color-1);
+  color:#fff
+}
+
+
 /* ---------- */
 
 
@@ -400,7 +431,7 @@ section.cuenta-regresiva .box-aros .box-circulo span.falta{
   text-align: center;
   display: inline-block;
   font-family: 'DM Serif Display', serif;
-  font-size: 30px;
+  font-size: 40px;
   color: var(--color-1);
 }
 
@@ -434,7 +465,7 @@ section.cuenta-regresiva .reloj-col span.number{
   width: 100%;
   color: var(--color-3);
   font-family: 'DM Serif Display', serif;
-  font-size:21px;
+  font-size: 30px;
 }
 
 section.cuenta-regresiva .reloj-col span.time{
@@ -1611,3 +1642,43 @@ footer p a:hover{
   width: 100%; 
 }
 
+
+/* Banner para redirigir a la web */
+.banner-contacto-web{
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height:auto;
+  background: #575756;
+  z-index: 9999;
+  padding:0;
+  margin: 0;
+}
+
+.banner-contacto-web p{
+  width: 100%;
+  text-align: center;
+  color:#fff;
+  margin: 0;
+  padding:5px 8px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+}
+
+.banner-contacto-web a{
+  color:#BFA880;
+}
+
+.banner-contacto-web a:first-child{
+  background:#FFF;
+  color:#575756;
+  border-radius: 10px;
+  padding:3px 10px;
+}
+
+.banner-contacto-web a:first-child:hover{
+  text-decoration:none;
+  color:#fff;
+  background-color: #BFA880;
+}
